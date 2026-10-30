@@ -18,8 +18,8 @@ W projekcie wykorzystano zbiór danych:
 
 W projekcie analizowane są następujące architektury:
 - VQ-VAE,
-- VQGAN,
-- Diffusion.
+- VQ-GAN,
+- Dyfuzja.
 
 
 ## Interfejs aplikacji
