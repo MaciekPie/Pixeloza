@@ -1,23 +1,40 @@
+![Icon](data/mascot.png)
+
 # Pixeloza
 
-Generator pixel-artowych postaci - projekt porównujący architektury generatywne na tym samym zbiorze danych, z interfejsem Gradio do generowania i porównywania wyników.
+Generator pixel-artowych postaci - projekt porównujący różne architektury generatywne na tym samym zbiorze danych. Aplikacja wykorzystuje interfejs Gradio do generowania obrazów na podstawie promptów tekstowych oraz porównywania wyników poszczególnych modeli.
 
 
-## Dataset
+## Cel projektu
 
+Celem projektu jest zbadanie i porównanie możliwości różnych architektur generatywnych w zadaniu tworzenia postaci w stylu pixel art. Modele są trenowane na tym samym zbiorze danych, co pozwala na analizę różnic w jakości, stylu i charakterze generowanych obrazów.
+
+
+## Zbiór danych
+
+W projekcie wykorzystano zbiór danych:
 [`jiovine/pixel-art-nouns`](https://huggingface.co/datasets/jiovine/pixel-art-nouns)
 
 
 ## Architektury
 
-- VQ-VAE
-- VQGAN
-- Diffusion
+W projekcie analizowane są następujące architektury:
+- VQ-VAE,
+- VQGAN,
+- Diffusion.
 
 
-## Interfejs
+## Interfejs aplikacji
 
-Aplikacja wykorzystuje Gradio do generowania obrazów na podstawie promptu tekstowego oraz porównywania wyników uzyskanych przez różne modele generatywne.
+Aplikacja wykorzystuje bibliotekę Gradio do udostępnienia interfejsu umożliwiającego:
+- wprowadzanie promptów tekstowych,
+- generowanie postaci pixel-art,
+- porównywanie rezultatów różnych modeli.
+
+
+## Technologie
+- Python,
+- Gradio.
 
 
 ## Autorzy
