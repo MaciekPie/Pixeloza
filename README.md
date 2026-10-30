@@ -1,6 +1,4 @@
-![Icon](data/mascot.png)
-
-# Pixeloza
+# ![Icon](data/mascot.png) Pixeloza
 
 Generator pixel-artowych postaci - projekt porównujący różne architektury generatywne na tym samym zbiorze danych. Aplikacja wykorzystuje interfejs Gradio do generowania obrazów na podstawie promptów tekstowych oraz porównywania wyników poszczególnych modeli.
 
